@@ -1,4 +1,5 @@
 
+
 ## CORS
 
 CORS는 Origin 간 리소스 공유 정책을 말합니다.
@@ -15,6 +16,34 @@ CORS는 Origin 간 리소스 공유 정책을 말합니다.
 
 브라우저가 결과를 성공적으로 확인하고 나면 **cross-origin** 요청을 보내서 그 이후 과정을 진행한다.
 
+
+
+
+## SOP
+
+Same-Origin Policy, <br>
+한 Origin(출처: 프로토콜, host(도메인), port) 로 부터 로드된 document, script가 다른 origin의 리소스와
+상호작용을 제한하는 보안 메커니즘
+
+
+
+## CSRF
+
+서버는 SOP 와 상관없이 읽기, 쓰기 모든 요청이 실행된다. <br>
+
+- Preflight 
+
+_이때, 해당 사용자의 비밀번호를 바꾸는 쓰기요청이 들어온다면?_
+
+
+
+
+
+
+#### 참고
+
 [https://dev-hyun.tistory.com/188](https://dev-hyun.tistory.com/188)
 
 [https://hwanchang.tistory.com/3](https://hwanchang.tistory.com/3)
+
+
